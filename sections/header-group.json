@@ -11,10 +11,18 @@
             "text": "Welcome to our store",
             "link": ""
           }
+        },
+        "fe4cb8fe-59f5-4364-90fa-a974a47ec521": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "fe4cb8fe-59f5-4364-90fa-a974a47ec521"
       ],
       "disabled": true,
       "settings": {
