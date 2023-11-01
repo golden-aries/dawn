@@ -1,0 +1,7 @@
+<p>Hello World</p>
+{% for link in linklists.collection_list_menu.links %}
+  <p>Got Link!</p>
+  {{ link.title | link_to: link.url }}
+  <p>{{ link.object.handle }}</p>
+  {{ link.object.image | image_url: width: 200 | image_tag }}
+{% endfor %}
