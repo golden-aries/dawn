@@ -1,11 +1,17 @@
 {
   "sections": {
-    "test": {
-      "type": "test",
-      "settings": {}
+    "featured": {
+      "type": "featured-list-collections",
+      "settings": {
+        "title": "Featured Collections",
+        "sort": "alphabetical",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "columns_mobile": "2"
+      }
     }
   },
   "order": [
-    "test"
+    "featured"
   ]
 }

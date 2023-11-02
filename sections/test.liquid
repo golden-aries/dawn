@@ -1,7 +1,29 @@
-<p>Hello World</p>
-{% for link in linklists.collection_list_menu.links %}
-  <p>Got Link!</p>
-  {{ link.title | link_to: link.url }}
-  <p>{{ link.object.handle }}</p>
-  {{ link.object.image | image_url: width: 200 | image_tag }}
-{% endfor %}
+<div class="facets-vertical page-width">
+  <div
+    class="product-grid-container{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    id="ProductGridContainer"
+    {% if settings.animations_reveal_on_scroll %}
+      data-cascade
+    {% endif %}
+  >
+    <div class="collection">
+      <div class="loading-overlay gradient"></div>
+      <div class="product-grid-container">
+        <div class="card-wrapper product-card-wrapper undeline-links-hover">
+          <ul
+            id="product-grid"
+            data-id="{{ section.id }}"
+            class="
+              grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+              grid--{{ section.settings.columns_desktop }}-col-desktop
+            "
+          >
+            {% for link in linklists.collection_list_menu.links %}
+              {{ link.object.image | image_url: width: 100 | image_tag }}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
