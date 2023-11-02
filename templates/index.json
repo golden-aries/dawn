@@ -81,6 +81,16 @@
         "padding_bottom": 0
       }
     },
+    "featured": {
+      "type": "featured-list-collections",
+      "settings": {
+        "title": "Featured Collections",
+        "sort": "alphabetical",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "columns_mobile": "2"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -227,6 +237,7 @@
   "order": [
     "image_banner",
     "rich_text",
+    "featured",
     "featured_collection",
     "collage",
     "video",
