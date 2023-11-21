@@ -85,7 +85,6 @@
       "type": "featured-list-collections",
       "settings": {
         "title": "Featured Collections",
-        "sort": "alphabetical",
         "image_ratio": "square",
         "columns_desktop": 5,
         "columns_mobile": "2"
@@ -108,8 +107,6 @@
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -228,7 +225,6 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
