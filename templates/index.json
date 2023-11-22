@@ -62,9 +62,8 @@
         },
         "text": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Artistic Sports Essentials and Crystals is a Canadian based company in Greater Vancouver \/ Lower Mainland, Beautiful British Columbia. We sell high quality grade rhinestones, fabric, tools and accessories used by figure skaters, dancers, gymnasts and other sports. Shopping with us is simple, easy and safe.<\/p>"
           }
         }
       },
