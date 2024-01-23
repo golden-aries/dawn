@@ -231,6 +231,7 @@
     },
     "page_hrfijX": {
       "type": "page",
+      "disabled": true,
       "settings": {
         "page": "about-us",
         "heading_size": "h1",
@@ -271,6 +272,7 @@
         "button_XLVH79"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Crystal_Transfer_Galaxy.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
