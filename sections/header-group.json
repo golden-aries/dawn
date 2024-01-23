@@ -15,7 +15,7 @@
         "announcement_UKkFQL": {
           "type": "announcement",
           "settings": {
-            "text": "Preciosa will rise prices starting February 1, 2024",
+            "text": "Preciosa will rise prices starting February 1, 2024 <a ref=\"https:\/\/www.jfallen.com\/\">ref<\/a>",
             "link": ""
           }
         }
