@@ -11,10 +11,18 @@
             "text": "Welcome to Artistic Sports Essentials and Crystals Online Store! We sell and ship within Canada!  ☎  +1 604-782-5025",
             "link": ""
           }
+        },
+        "announcement_UKkFQL": {
+          "type": "announcement",
+          "settings": {
+            "text": "Preciosa will rise prices starting February 1, 2024",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_UKkFQL"
       ],
       "settings": {
         "color_scheme": "scheme-508cc7b1-1cb9-4c86-bcfb-8fe3ff1321e9",
