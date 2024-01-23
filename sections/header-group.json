@@ -8,9 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Artistic Sports Essentials and Crystals",
-            "text_alignment": "center",
-            "color_scheme": "scheme-1",
+            "text": "Welcome to Artistic Sports Essentials and Crystals Online Store! We sell and ship within Canada!  ☎  +1 604-782-5025",
             "link": ""
           }
         }
@@ -31,7 +29,6 @@
     "header": {
       "type": "header",
       "settings": {
-        "color_scheme": "scheme-1",
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
