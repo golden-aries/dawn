@@ -247,22 +247,22 @@
         "heading_REbN4A": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "News from Preciosa",
             "heading_size": "h1"
           }
         },
         "text_UabEXW": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Preciosa prices are expected to go  up soon.<\/p>",
             "text_style": "body"
           }
         },
         "button_XLVH79": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Buy Preciosa Viva 12 Today",
+            "button_link": "shopify:\/\/collections\/preciosa-viva12-hot-fix",
             "button_style_secondary": false
           }
         }
