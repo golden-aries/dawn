@@ -15,14 +15,14 @@
         "heading_REbN4A": {
           "type": "heading",
           "settings": {
-            "heading": "News from Preciosa",
-            "heading_size": "h1"
+            "heading": "News from Preciosa Components",
+            "heading_size": "h2"
           }
         },
         "text_UabEXW": {
           "type": "text",
           "settings": {
-            "text": "<p>Preciosa prices are expected to go  up soon.<\/p>",
+            "text": "<p>Dear Customers, we received a notice from Preciosa Components, a member of Preciosa Group, regarding the annual price increase for Preciosa premium line products effective April 1, 2024. <\/p>",
             "text_style": "body"
           }
         },
@@ -41,7 +41,7 @@
         "button_XLVH79"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Crystal_Transfer_Galaxy.jpg",
+        "image": "shopify:\/\/shop_images\/Authorized_Retailer_500x500_8be17122-6e49-4767-b536-7adb81d9b53f.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
