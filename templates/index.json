@@ -43,7 +43,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Authorized_Retailer_300x300_3e1acac8-3a99-47d6-86be-1784a1775077.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
