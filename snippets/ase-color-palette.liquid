@@ -1,0 +1,19 @@
+{{ 'ase-color-palette.css' | asset_url | stylesheet_tag }}
+{% for filter in filters %}
+  {% if filter.label == 'Color' %}
+    <div class="ase-color-palette page-width ase-grid">
+      {% for filter_value in filter.values %}
+        <div class="ase-color-palette-item">
+          <a href="{{ filter_value.url_to_add | escape }}">
+            <img
+              width="30"
+              height="30"
+              src="{{ filter_value.label | downcase | replace: ' ', '_' | append: '.jpg' | file_img_url }}"
+            >
+          </a>
+          <div class="ase-color-palette-item-title">{{- filter_value.label | escape -}}</div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
