@@ -1,0 +1,13 @@
+{%- assign any_filter_active = 0 -%}
+{%- for filter in collection.filters -%}
+  {% if filter.active_values.size > 0 %}
+    {% assign any_filter_active = 1 %}
+  {% endif %}
+{%- endfor -%}
+{%- if any_filter_active == 0 -%}
+  {% comment %} render product grid {% endcomment %}
+  {%- render 'color-palette', filters: collection.filters -%}
+{%- else -%}
+  {% comment %} render product grid {% endcomment %}
+  <p>Product Grid</p>
+{%- endif -%}
