@@ -1,0 +1,36 @@
+{{ 'ase-color-palette.css' | asset_url | stylesheet_tag }}
+{% comment %} haldles {% endcomment %}
+{%- assign img_prefix = '' -%}
+{% if collection.handle == 'preciosa-viva12-fb-hf' or collection.handle == 'premium-dmc-fb-hf' %}
+  {%- assign img_prefix = 'th_viva12' -%}
+{% endif %}
+{% if img_prefix %}
+  {%- assign img_prefix = img_prefix | append: '_' -%}
+{% endif %}
+{% comment %} sort {% endcomment %}
+{% if sort == '' %}
+  {%- assign next_sort = '&sort_by=price-ascending' -%}
+{% else %}
+  {%- assign next_sort = '' -%}
+{% endif %}
+{% comment %} filters {% endcomment %}
+{% for filter in filters %}
+  {% if filter.label == 'Color' %}
+    <div class="ase-color-palette page-width ase-grid">
+      {% for filter_value in filter.values %}
+        {% if filter_value.count > 0 %}
+          <a href="{{ filter_value.url_to_add | append: next_sort }}">
+            <div class="ase-color-palette-item">
+              <img
+                width="30"
+                height="30"
+                src="{{ img_prefix | append: filter_value.label | downcase | replace: ' ', '_' | append: '.jpg' | file_img_url }}"
+              >
+              <div class="ase-color-palette-item-title">{{- filter_value.label | escape -}}</div>
+            </div>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
