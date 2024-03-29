@@ -1,4 +1,4 @@
-{% comment %} ?view=test&sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.m.ase.color=Amethyst {% endcomment %}
+{% comment %} ?view=test&sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.m.ase.color=Amethyst&sort_by=price-ascending {% endcomment %}
 {%- assign any_filter_active = 0 -%}
 {%- for filter in collection.filters -%}
   {% if filter.active_values.size > 0 %}

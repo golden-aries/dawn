@@ -1,7 +1,6 @@
 .ase-color-palette {
     display: grid;
     column-gap: 2px;
-    row-gap: 2px;
 }
 
 .ase-color-palette-item {
@@ -15,25 +14,29 @@
     vertical-align: middle;
     color: #203065
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 749px) {
     .ase-grid {
         grid-template-columns: 1fr 1fr;
+        row-gap: 5px;
     }
 }
 @media screen and (min-width: 750px) and (max-width: 989px) {
     .ase-grid {
         grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 5px;
     }
 }
 
 @media screen and (min-width: 990px) and (max-width: 1199px) {
     .ase-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 15px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .ase-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        row-gap: 15px;
     }
 }
