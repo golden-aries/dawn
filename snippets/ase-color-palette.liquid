@@ -1,8 +1,12 @@
 {{ 'ase-color-palette.css' | asset_url | stylesheet_tag }}
 {% comment %} haldles {% endcomment %}
 {%- assign img_prefix = '' -%}
-{% if collection.handle == 'preciosa-viva12-fb-hf' or collection.handle == 'premium-dmc-fb-hf' %}
+{%- assign ext = '.jpg' %}
+{% if collection.handle == 'preciosa-viva12-fb-hf' or collection.handle == 'premium-dmc-fb-hf' -%}
   {%- assign img_prefix = 'th_viva12' -%}
+{%- elsif collection.handle == 'swarovski-emelents-fb-hf' -%}
+  {%- assign img_prefix = 'th_sw' -%}
+  {%- assign ext = '.png' -%}
 {% endif %}
 {% if img_prefix %}
   {%- assign img_prefix = img_prefix | append: '_' -%}
@@ -24,7 +28,7 @@
               <img
                 width="30"
                 height="30"
-                src="{{ img_prefix | append: filter_value.label | downcase | replace: ' ', '_' | append: '.jpg' | file_img_url }}"
+                src="{{ img_prefix | append: filter_value.label | downcase | replace: ' ', '_' | append: ext | file_img_url }}"
               >
               <div class="ase-color-palette-item-title">{{- filter_value.label | escape -}}</div>
             </div>
