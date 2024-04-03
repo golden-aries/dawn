@@ -1,6 +1,8 @@
 .header .whatsup {
-    grid-area: ase-icons;
+    grid-area: icons;
     height: 3rem;
     width: 3rem;
-    justify-self: end;
+    /* justify-self: end; */
+    align-self: center;
+    padding-right: 0.5rem;
 }
