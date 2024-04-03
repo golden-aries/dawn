@@ -1,0 +1,6 @@
+.header .whatsup {
+    grid-area: ase-icons;
+    height: 3rem;
+    width: 3rem;
+    justify-self: end;
+}
