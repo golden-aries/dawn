@@ -249,7 +249,7 @@
           "settings": {
             "image": "{{ product.metafields.custom.product_highlights.value.image.value }}",
             "caption": "Caption",
-            "heading": "Row",
+            "heading": "Row{{ product.metafields.custom.product_highlights.value.heading.value }}",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.{{ product.metafields.custom.product_highlights.value.description | metafield_tag }}<\/p>",
             "button_label": "Button label",
             "button_link": ""
