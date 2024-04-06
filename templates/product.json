@@ -274,6 +274,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_liquid_EV9nHp": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{%- if product.metafields.ase.safety_warnings -%}\n  {%- for warning in product.metafields.ase.safety_warnings.value -%}\n    <p>Type: {{ warning.type }} text: {{ warning.text }} url: {{ warning.info_url }} order: {{ warning.info_url }}<\/p>\n  {% endfor %}\n{%- endif -%}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -281,6 +290,7 @@
     "image-with-text",
     "multicolumn",
     "related-products",
-    "multirow_RPtd3A"
+    "multirow_RPtd3A",
+    "custom_liquid_EV9nHp"
   ]
 }
