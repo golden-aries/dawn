@@ -1,0 +1,5 @@
+{%- if product.metafields.ase.safety_warnings -%}
+  {%- for warning in product.metafields.ase.safety_warnings.value -%}
+    <p>Type: {{ warning.type }} text: {{ warning.text }} url: {{ warning.info_url }} order: {{ warning.info_url }}</p>
+  {% endfor %}
+{%- endif -%}
