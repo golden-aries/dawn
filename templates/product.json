@@ -130,6 +130,9 @@
         "padding_bottom": 12
       }
     },
+    "warnings": {
+      "type": "product-safety-warnings"
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -152,6 +155,7 @@
   },
   "order": [
     "main",
+    "warnings",
     "related-products"
   ]
 }
