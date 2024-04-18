@@ -7,6 +7,8 @@
 {%- elsif collection.handle == 'swarovski-emelents-fb-hf' -%}
   {%- assign img_prefix = 'th_sw' -%}
   {%- assign ext = '.png' -%}
+{%- elsif collection.handle == 'cabochon-fb-hf' -%}
+  {%- assign img_prefix = 'th_cabochon' -%}
 {% endif %}
 {% if img_prefix %}
   {%- assign img_prefix = img_prefix | append: '_' -%}
