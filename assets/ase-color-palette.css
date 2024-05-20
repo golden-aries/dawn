@@ -12,31 +12,38 @@
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 1em;
     vertical-align: middle;
-    color: #203065
+    color: #203065;
+    line-height: normal;
+}
+
+:root {
+    --ase_cplt_columns: 5;
+    --ase_cplt_row_gaps: 15px;
+}
+.ase-grid {
+    grid-template-columns: repeat(var(--ase_cplt_columns), 1fr);
+    row-gap: var(--ase_cplt_row_gaps);
 }
 @media screen and (max-width: 749px) {
-    .ase-grid {
-        grid-template-columns: 1fr 1fr;
-        row-gap: 5px;
+    :root {
+        --ase_cplt_columns: 2;
+        --ase_cplt_row_gaps: 3px;
     }
 }
 @media screen and (min-width: 750px) and (max-width: 989px) {
-    .ase-grid {
-        grid-template-columns: 1fr 1fr 1fr;
-        row-gap: 5px;
+    :root {
+        --ase_cplt_columns: 3;
+        --ase_cplt_row_gaps: 5px;
     }
 }
 
 @media screen and (min-width: 990px) and (max-width: 1199px) {
-    .ase-grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        row-gap: 15px;
+    :root {
+        --ase_cplt_columns: 4;
     }
 }
 
+/* default
 @media screen and (min-width: 1200px) {
-    .ase-grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        row-gap: 15px;
-    }
 }
+*/

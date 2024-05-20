@@ -35,7 +35,11 @@
 {%- endfor -%}
 {%- if any_filter_active == 0 -%}
   {% comment %} render product grid {% endcomment %}
-  {%- render 'ase-color-palette', collection: collection, filters: collection.filters, sort: collection.sort_by -%}
+  {%- render 'ase-color-palette_column_flow',
+    collection: collection,
+    filters: collection.filters,
+    sort: collection.sort_by
+  -%}
 {%- endif -%}
 
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
