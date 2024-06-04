@@ -1,0 +1,26 @@
+{%- if product.metafields.ase['safety-warnings'] -%}
+  <div class="page-width">
+    <p>WARNINGS</p>
+    <ul>
+      {%- assign warnings = product.metafields.ase['safety-warnings'].value | sort: 'order-str' -%}
+      {%- for warning in warnings -%}
+        <li>{{ warning.text }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{%- endif -%}
+{% schema %}
+{
+  "name": "product-safety-warnings",
+  "tag": "section",
+  "class": "section",
+  "presets": [
+    {
+      "name": "product-safety-warnings"
+    }
+  ],
+  "enabled_on": {
+    "templates": ["product"]
+  }
+}
+{% endschema %}
