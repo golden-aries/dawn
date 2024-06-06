@@ -1,0 +1,10 @@
+{
+  "sections": {
+    "hues": {
+      "type": "ase-hues"
+    }
+  },
+  "order": [
+    "hues"
+  ]
+}
