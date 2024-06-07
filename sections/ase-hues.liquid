@@ -1,5 +1,17 @@
 <div class="page-width">
   <h1>hues demo</h1>
+  <div style="">
+    {%- assign hues = shop.metaobjects.color_groups.values | sort: 'order_str' -%}
+    {% for hue in hues %}
+      <div style="display: flex; margin-bottom: 0.5em;">
+        <span
+          class="swatch"
+          style="background-color: {{ hue.color.value }}; width: 2em; height: 2em; display: inline-block; border-radius: 10px; border-width: 1px; border-color: lightgray; border-style: solid;"
+        ></span>
+        <span style="margin-left: 0.5em; border:1px;">{{ hue.name }}</span>
+      </div>
+    {%- endfor -%}
+  </div>
 </div>
 
 {% schema %}
