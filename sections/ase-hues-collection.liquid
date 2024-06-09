@@ -1,0 +1,11 @@
+{% comment %} test: {% endcomment %}
+{%- assign any_filter_active = 0 -%}
+{%- for filter in collection.filters -%}
+  {%- if filter.active_values.size > 0 -%}
+    {%- assign any_filter_active = 1 -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if any_filter_active == 0 -%}
+  {% comment %} render product grid {% endcomment %}
+  {%- render 'ase-hues', collection: collection, filters: collection.filters, sort: collection.sort_by -%}
+{%- endif -%}

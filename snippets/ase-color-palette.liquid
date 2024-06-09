@@ -1,3 +1,4 @@
+{{ 'ase-common.css' | asset_url | stylesheet_tag }}
 {{ 'ase-color-palette.css' | asset_url | stylesheet_tag }}
 {% comment %} haldles {% endcomment %}
 {%- assign img_prefix = 'th_viva12' -%}
@@ -22,7 +23,7 @@
 {% comment %} filters {% endcomment %}
 {% for filter in filters %}
   {% if filter.label == 'Color' %}
-    <div class="ase-color-palette page-width ase-grid">
+    <div class="ase-grid page-width">
       {% for filter_value in filter.values %}
         {% if filter_value.count > 0 %}
           <a href="{{ filter_value.url_to_add | append: next_sort }}">

@@ -1,0 +1,36 @@
+
+/* .ase-grid .ase-hues-grid {
+
+} */
+.ase-hues-item {
+    display: flex;
+    --swatch-input--size: 2.4rem;
+}
+
+.ase-hues-item .swatch{
+    display: inline-block;
+}
+
+.ase-hues-item-title {
+    margin-left: 1rem;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    vertical-align: middle;
+    color: #203065;
+    line-height: normal;
+    align-self: center;
+}
+
+
+/* a:link { 
+    text-decoration: none; 
+}  */
+/* a:visited { 
+text-decoration: none; 
+} 
+a:hover { 
+text-decoration: none; 
+} 
+a:active { 
+text-decoration: none; 
+} */

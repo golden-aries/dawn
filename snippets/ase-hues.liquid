@@ -1,28 +1,22 @@
+{% comment %}
+  Renders hues grid
+  Accepts:
+    filters: {Object} Filters object
+    sort: {String}
+{% endcomment %}
 {{ 'ase-common.css' | asset_url | stylesheet_tag }}
-{{ 'ase-color-palette.css' | asset_url | stylesheet_tag }}
-{% comment %} haldles {% endcomment %}
-{%- assign img_prefix = 'th_viva12' -%}
-{%- assign ext = '.jpg' %}
-{% if collection.handle == 'preciosa-viva12-fb-hf' or collection.handle == 'premium-dmc-fb-hf' -%}
-  {%- assign img_prefix = 'th_viva12' -%}
-{%- elsif collection.handle == 'swarovski-emelents-fb-hf' -%}
-  {%- assign img_prefix = 'th_sw' -%}
-  {%- assign ext = '.png' -%}
-{%- elsif collection.handle == 'cabochon-fb-hf' -%}
-  {%- assign img_prefix = 'th_cabochon' -%}
-{% endif %}
-{% if img_prefix %}
-  {%- assign img_prefix = img_prefix | append: '_' -%}
-{% endif %}
+{{ 'ase-hues.css' | asset_url | stylesheet_tag }}
+
 {% comment %} sort {% endcomment %}
 {% if sort == '' %}
   {%- assign next_sort = '&sort_by=price-ascending' -%}
 {% else %}
   {%- assign next_sort = '' -%}
 {% endif %}
+
 {% comment %} filters {% endcomment %}
 {% for filter in filters %}
-  {% if filter.label == 'Color' %}
+  {% if filter.label == 'Hue' %}
     {% assign non_empty_filter_lables_count = 0 %}
     {% for filter_value in filter.values %}
       {% if filter_value.count > 0 %}
@@ -43,20 +37,16 @@
             }
           }
       {%- endstyle -%}
-      <div class="ase-grid page-width">
+      <div class="ase-grid page-width ase-hues-grid">
         {% for filter_value in filter.values %}
           {% if filter_value.count > 0 %}
             {% comment %} style="grid-column-start: calc( 1 + round(down, {{ forloop.index0 }} / var(--ase_cplt_rows), 1));  grid-row-start: mod({{ forloop.index }}, var(--ase_cplt_rows));" {% endcomment %}
             <a
               href="{{ filter_value.url_to_add | append: next_sort }}"
             >
-              <div class="ase-color-palette-item">
-                <img
-                  width="30"
-                  height="30"
-                  src="{{ img_prefix | append: filter_value.label | downcase | replace: ' ', '_' | append: ext | file_img_url }}"
-                >
-                <div class="ase-color-palette-item-title">{{- filter_value.label | escape -}}</div>
+              <div class="ase-hues-item">
+                {% render 'swatch', swatch: filter_value.swatch %}
+                <span class="ase-hues-item-title">{{- filter_value.label | escape -}}</span>
               </div>
             </a>
           {% endif %}
