@@ -1,5 +1,13 @@
 <div class="page-width">
-  <h1>hues demo</h1>
+  <h1>hues demo2</h1>
+  <div style="">
+    {%- assign hues = shop.metaobjects.color_groups.values | sort: 'order_str' -%}
+    {% for hue in hues %}
+      <p>Color: {{ hue.color.value.rgb }}</p>
+      {% render 'swatch', swatch: hue %}
+    {%- endfor -%}
+  </div>
+
   <div style="">
     {%- assign hues = shop.metaobjects.color_groups.values | sort: 'order_str' -%}
     {% for hue in hues %}
@@ -16,11 +24,11 @@
 
 {% schema %}
 {
-  "name": "hues",
+  "name": "hues-page",
   "tag": "section",
   "class": "section",
-  "disabled_on": {
-    "groups": ["header", "footer"]
+  "enabled_on": {
+    "templates": ["page"]
   }
 }
 {% endschema %}

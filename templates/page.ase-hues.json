@@ -1,7 +1,7 @@
 {
   "sections": {
     "hues": {
-      "type": "ase-hues"
+      "type": "ase-hues-page"
     }
   },
   "order": [
