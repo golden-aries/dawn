@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "featured": {
@@ -22,7 +31,7 @@
         "text_UabEXW": {
           "type": "text",
           "settings": {
-            "text": "<p>Dear Customers, we received a notice from Preciosa Components, a member of Preciosa Group, regarding the annual price increase for Preciosa premium line products effective April 1, 2024. <\/p>",
+            "text": "<p>Dear Customers, we received a notice from <strong>Preciosa Components<\/strong>, a member of Preciosa Group, regarding the annual price increase for Preciosa premium line products effective April 1, 2024. <\/p>",
             "text_style": "body"
           }
         },
