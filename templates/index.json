@@ -15,7 +15,7 @@
         "heading_m3hP9h": {
           "type": "heading",
           "settings": {
-            "heading": "Store wide Canada Day Sale",
+            "heading": "Store Wide Canada Day Sale",
             "heading_size": "h2"
           }
         },
@@ -47,7 +47,7 @@
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
