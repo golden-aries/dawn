@@ -31,7 +31,7 @@
         "text_wEXL3A": {
           "type": "text",
           "settings": {
-            "text": "<p>We are activating Canada Day discount code: \"CanadaDay\" at 12:00am July 1, 2024, for everyone for the first five days of July. Feel free to use it at the checkout.<\/p>",
+            "text": "<p>We are activating Canada Day discount code: <strong>CanadaDay<\/strong> at 12:00am July 1, 2024, for everyone for the first five days of July. Feel free to use it at the checkout.<\/p>",
             "text_style": "body"
           }
         },
