@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "featured": {
@@ -15,21 +24,21 @@
         "heading_m3hP9h": {
           "type": "heading",
           "settings": {
-            "heading": "News from Preciosa Components",
+            "heading": "Canada Day Discount",
             "heading_size": "h2"
           }
         },
         "text_wEXL3A": {
           "type": "text",
           "settings": {
-            "text": "<p>Dear Customers, we received a notice from Preciosa Components, a member of Preciosa Group, regarding their annual price increase for Preciosa premium line products effective April 1, 2024. We will increase our prices accordingly on that date.  Do not wait. Take advantage of 2023 year prices today.<\/p>",
+            "text": "<p>We activated Canada Day discount code: \"CanadaDay\", for everyone for the first five days of July. Feel free to use it at the checkout.<\/p>",
             "text_style": "body"
           }
         },
         "button_GKEp8Q": {
           "type": "button",
           "settings": {
-            "button_label": "Buy Preciosa VIVA 12 Crystals Today",
+            "button_label": "Use Canada Day 5% discount code",
             "button_link": "shopify:\/\/collections\/preciosa-viva12-fb-hf",
             "button_style_secondary": false
           }
@@ -40,9 +49,8 @@
         "text_wEXL3A",
         "button_GKEp8Q"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Authorized_Retailer_300x300_3e1acac8-3a99-47d6-86be-1784a1775077.jpg",
+        "image": "shopify:\/\/shop_images\/2024-06-30_Canada_Day.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
