@@ -15,7 +15,7 @@
         "heading_m3hP9h": {
           "type": "heading",
           "settings": {
-            "heading": "Store Wide Canada Day Sale",
+            "heading": "<strong>5% Store Wide Canada Day Sale<\/strong>",
             "heading_size": "h2"
           }
         },
@@ -45,7 +45,7 @@
         "image": "shopify:\/\/shop_images\/2024-06-30_Canada_Day.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
