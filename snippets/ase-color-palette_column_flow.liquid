@@ -53,18 +53,18 @@
             <a
               href="{{ filter_value.url_to_add | append: next_sort }}"
             >
-              {% if use_swatches %}
-                {% render 'swatch', swatch: filter_value.value %}
-              {% else %}
-                <div class="ase-color-palette-item">
+              <div class="ase-color-palette-item">
+                {% if use_swatches %}
+                  {% render 'swatch', swatch: filter_value.swatch %}
+                {% else %}
                   <img
                     width="30"
                     height="30"
                     src="{{ img_prefix | append: filter_value.label | downcase | replace: ' ', '_' | append: ext | file_img_url }}"
                   >
-                  <div class="ase-color-palette-item-title">{{- filter_value.label | escape -}}</div>
-                </div>
-              {% endif %}
+                {% endif %}
+                <div class="ase-color-palette-item-title">{{- filter_value.label | escape -}}</div>
+              </div>
             </a>
           {% endif %}
         {% endfor %}
