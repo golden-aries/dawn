@@ -73,14 +73,14 @@
         "heading_Lp86Fm": {
           "type": "heading",
           "settings": {
-            "heading": "Canada Post service disruption notice.",
+            "heading": "Canada Post service disruption notice!",
             "heading_size": "h2"
           }
         },
         "text_CD8Q4m": {
           "type": "text",
           "settings": {
-            "text": "<p>Dear customers.</p><p> Please shop with confidence. We switched to shipping using other couriers. </p>",
+            "text": "<p>Dear customers.</p><p> Please shop with confidence!</p><p>We switched to using other couriers. </p>",
             "text_style": "body"
           }
         },
@@ -103,7 +103,7 @@
         "image": "shopify://shop_images/top-view-of-hands-ready-to-open-a-cardboard-box.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
