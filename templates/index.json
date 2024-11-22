@@ -80,7 +80,7 @@
         "text_CD8Q4m": {
           "type": "text",
           "settings": {
-            "text": "<p>Dear customers.</p><p> Please shop with confidence!</p><p>We switched to using other couriers. </p>",
+            "text": "<p>Dear customers.</p><p> Please shop with confidence!</p><p>We have switched to using other couriers.</p>",
             "text_style": "body"
           }
         },
