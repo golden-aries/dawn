@@ -73,14 +73,14 @@
         "heading_Lp86Fm": {
           "type": "heading",
           "settings": {
-            "heading": "Canada Post service disruption notice!",
+            "heading": "We do ship orders!",
             "heading_size": "h2"
           }
         },
         "text_CD8Q4m": {
           "type": "text",
           "settings": {
-            "text": "<p>Dear customers.</p><p> Please shop with confidence!</p><p>We have switched to using other couriers.</p>",
+            "text": "<p>Dear Customers,<br/>You’re welcome to browse and place your orders as usual! We have switched to alternative couriers and are continuing to ship orders despite the Canada Post strike.</p>",
             "text_style": "body"
           }
         },
