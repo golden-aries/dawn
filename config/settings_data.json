@@ -1,17 +1,17 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/logo.svg",
+    "logo": "shopify://shop_images/logo.svg",
     "logo_width": 200,
-    "favicon": "shopify:\/\/shop_images\/favicon.svg",
+    "favicon": "shopify://shop_images/favicon.svg",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -20,6 +20,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
+    "animations_reveal_on_scroll": true,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -105,10 +106,10 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "social_facebook_link": "https:\/\/www.facebook.com\/asecrystals\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/asecrystals",
+    "social_facebook_link": "https://www.facebook.com/asecrystals/",
+    "social_instagram_link": "https://www.instagram.com/asecrystals",
     "social_youtube_link": "",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@ase.crystals",
+    "social_tiktok_link": "https://www.tiktok.com/@ase.crystals",
     "social_twitter_link": "",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
@@ -122,7 +123,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/logo_210_60.svg",
+    "checkout_logo_image": "shopify://shop_images/logo_210_60.svg",
     "checkout_logo_position": "right",
     "checkout_logo_size": "large",
     "checkout_accent_color": "#4e6b9e",
@@ -141,9 +142,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "color_schemes": {
       "background-1": {
         "settings": {
