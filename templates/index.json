@@ -92,7 +92,7 @@
     "featured": {
       "type": "featured-list-collections",
       "settings": {
-        "title": "Collections",
+        "title": "",
         "image_ratio": "square",
         "columns_desktop": 5,
         "columns_mobile": "2"
