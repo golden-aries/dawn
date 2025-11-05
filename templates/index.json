@@ -81,6 +81,7 @@
       "block_order": [
         "heading_NxVJrp"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/top-view-of-hands-ready-to-open-a-cardboard-box.jpg",
